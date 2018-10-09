@@ -4,13 +4,24 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Coding Template</title>
   <link rel="stylesheet" type="text/css" href="bundle.css">
+  <style>
+    body{ background: rgb(103, 209, 147)}
+    body{font-size: 33px}
+   input{font-size: 25px}
+   input{background:lightyellow }
+   input{text-align: center}
+   button{font-size: 25px} 
+   button{background: lightyellow}  
+  </style>
 </head>
 
 <body>
-  <h1>Webpack - TypeScript - Scss</h1>
-  <h2>TypeScript Hello World</h2>  
-  <div id="content"></div>
-    
+  <h1 style="color:red;" text-align:center;> Weight-Conversion</h1>
+
+  <input id ="inputNumber" placeholder="Ounces/Grams" />
+  <button id ="toGrams">Convert to Grams</button>  
+  <button id ="toOunces">Convert to Ounces</button>  
+  <span id ="output"></span>
   <script src="bundle.js"></script>
 </body>
 </html>
